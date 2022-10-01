@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: SonySemiconductorSolutionsCorporation
-  productName: ToF AR Server
+  productName: ToF AR Server ARF
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -136,6 +136,8 @@ PlayerSettings:
     Others: 1
   bundleVersion: 1.1.0
   preloadedAssets:
+  - {fileID: 4800000, guid: e7c77f6eaab324a819efdc13b8125a39, type: 3}
+  - {fileID: -2594321930131663026, guid: 6fedb5652a6bd484ab67b81c957c8bfa, type: 2}
   - {fileID: 11400000, guid: 3088634cc54d64d0d9a91138ced0e485, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -155,8 +157,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: jp.co.sonysemicon.tofar.server
-    iPhone: jp.co.sonysemicon.tofar.server
+    Android: com.satoshimaemoto.tofar.server.arfoundation
+    iPhone: com.satoshimaemoto.tofar.server.arfoundation
   buildNumber:
     Standalone: 0
     iPhone: 0
